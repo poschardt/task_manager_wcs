@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Task Manager</title>
+    </head>
+    <body>
+        <form>
+            <p>
+                <label for="title">Title</label><br>
+                <input id="title" type="text">
+            </p>
+            <p>
+                <label for="description">Description</label><br>
+                <textarea id="description" type="text"></textarea>
+            </p>
+            <p>
+                <label for="category">Category</label><br>
+                <input id="category" type="text">
+            </p>
+            <p>
+                <label for="priority-level">Priority Level</label><br>
+                <select id="priority-level">
+                    <option value="none">Select an item</option>
+                    <option value="low">Low</option>
+                    <option value="medium">Medium</option>
+                    <option value="high">High</option>
+                </select>
+            </p>
+            <p>
+                <label for="progess">Progress Level</label><br>
+                <select id="progess">
+                    <option value="none">Select an item</option>
+                    <option value="pending">Pending</option>
+                    <option value="half">Halfway</option>
+                    <option value="completed">Completed</option>
+                </select>
+            </p>
+            <input type="button" value="Submit">
+        </form>
+    </body>
+</html>
